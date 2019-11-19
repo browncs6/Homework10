@@ -1,0 +1,5 @@
+.DS_Store
+.vscode
+__pycache__
+*.tar.gz
+otp_flights/

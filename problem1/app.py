@@ -11,7 +11,7 @@ from flask_bootstrap import Bootstrap
 app = Flask(__name__)
 Bootstrap(app)
 
-# TODO: connect to your database and create necessary tables/documents
+# TODO: connect to your database and create necessary tables/collections
 
 app.config['SECRET_KEY'] = 'Blah blah blah'
 
@@ -30,7 +30,6 @@ def get_todo_list_items():
     """Returns a list of all the todo list items from the database"""
     pass
 
-## TODO: insert a todo list item into your daba
 def create_item(name, notes):
     """Inserts a todo list item with `name` and `notes` into the database.
     Returns nothing.
